@@ -1,0 +1,32 @@
+@import url("slyle/header.css");
+
+:root{
+    --cor-de-fundo: #ebecee;
+    --brnco: #ffffff;
+}
+
+body{
+    background-color: var(--cor-de-fundo);
+}
+
+.cabecalho-menu-hamburguer{
+    width:24xp;
+    height:24xp;
+    background-color: url("../Ima/Menu.svg");
+    display: inline-block;
+}
+
+.cabecalho{
+    background-color:var(--branco);
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    position:relative;
+}
+
+.container{
+    display:flex;
+    align-items: center;
+}
+
+
