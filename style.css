@@ -29,4 +29,12 @@ body{
     align-items: center;
 }
 
+.lista-menu{
+    display: none;
+    position: absolute;
+    top:100;
+}
 
+.container-botão:checked ~ .lista-menu{
+    display:block;
+}
